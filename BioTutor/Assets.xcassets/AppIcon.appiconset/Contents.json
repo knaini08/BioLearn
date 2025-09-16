@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "biolearnnewlogo.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"

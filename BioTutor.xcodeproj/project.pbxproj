@@ -7,18 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0CCB612D592D70002E96C4 /* NotesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CCB602D592D70002E96C4 /* NotesData.swift */; };
+		7A0CCB632D592FB2002E96C4 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CCB622D592FB2002E96C4 /* NotesView.swift */; };
+		7A0E8F272D73BCC100CABFC7 /* PhotosynthesisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E8F262D73BCC100CABFC7 /* PhotosynthesisView.swift */; };
+		7A0E8F292D73BFB600CABFC7 /* Unit9Flashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E8F282D73BFB600CABFC7 /* Unit9Flashcards.swift */; };
+		7A0E8F2B2D73C8D200CABFC7 /* CellularRespirationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E8F2A2D73C8D200CABFC7 /* CellularRespirationView.swift */; };
+		7A0E8F2D2D73C8DD00CABFC7 /* Unit10Flashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E8F2C2D73C8DD00CABFC7 /* Unit10Flashcards.swift */; };
+		7A3823EE2D42FE1400FB4927 /* Unit1Flashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3823ED2D42FE1400FB4927 /* Unit1Flashcards.swift */; };
 		7A47B7282D40CFB400B04ECA /* BioTutorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A47B7272D40CFB400B04ECA /* BioTutorApp.swift */; };
 		7A47B72A2D40CFB400B04ECA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A47B7292D40CFB400B04ECA /* ContentView.swift */; };
 		7A47B72C2D40CFB600B04ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A47B72B2D40CFB600B04ECA /* Assets.xcassets */; };
 		7A47B72F2D40CFB600B04ECA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A47B72E2D40CFB600B04ECA /* Preview Assets.xcassets */; };
+		7A47B7362D40D35300B04ECA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A47B7352D40D35300B04ECA /* Launch Screen.storyboard */; };
+		7A529C302D833E3D00F70015 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A529C2F2D833E3D00F70015 /* CreateView.swift */; };
+		7A9C31D42D44D85200A075DF /* Unit1PracticeQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9C31D32D44D85200A075DF /* Unit1PracticeQuestions.swift */; };
+		7A9EB8CC2D48116A002A92AD /* CellStructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB8CB2D48116A002A92AD /* CellStructureView.swift */; };
+		7A9EB8CE2D481188002A92AD /* Unit2Flashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB8CD2D481188002A92AD /* Unit2Flashcards.swift */; };
+		7A9EB8F62D48998F002A92AD /* CellCommsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB8F52D48998F002A92AD /* CellCommsView.swift */; };
+		7A9EB8F92D49421F002A92AD /* CellularEnergeticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB8F82D49421F002A92AD /* CellularEnergeticsView.swift */; };
+		7A9EB8FB2D49422B002A92AD /* EcologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB8FA2D49422B002A92AD /* EcologyView.swift */; };
+		7A9EB8FD2D494237002A92AD /* GeneExpressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB8FC2D494237002A92AD /* GeneExpressionView.swift */; };
+		7A9EB8FF2D494242002A92AD /* HeredityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB8FE2D494242002A92AD /* HeredityView.swift */; };
+		7A9EB9012D49424D002A92AD /* NaturalSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB9002D49424D002A92AD /* NaturalSelectionView.swift */; };
+		7A9EB9092D494359002A92AD /* Unit3Flashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB9082D494359002A92AD /* Unit3Flashcards.swift */; };
+		7A9EB90B2D494362002A92AD /* Unit4Flashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB90A2D494362002A92AD /* Unit4Flashcards.swift */; };
+		7A9EB90D2D49436B002A92AD /* Unit5Flashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB90C2D49436B002A92AD /* Unit5Flashcards.swift */; };
+		7A9EB90F2D494371002A92AD /* Unit6Flashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB90E2D494371002A92AD /* Unit6Flashcards.swift */; };
+		7A9EB9112D49437F002A92AD /* Unit7Flashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB9102D49437F002A92AD /* Unit7Flashcards.swift */; };
+		7A9EB9132D494387002A92AD /* Unit8Flashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB9122D494387002A92AD /* Unit8Flashcards.swift */; };
+		7A9EB91B2D495F4E002A92AD /* PracticeQuestionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB91A2D495F4E002A92AD /* PracticeQuestionsData.swift */; };
+		7A9EB9212D49F1FF002A92AD /* PracticeTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB9202D49F1FF002A92AD /* PracticeTestData.swift */; };
+		7A9EB9252D49F26F002A92AD /* PracticeTestView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EB9242D49F26F002A92AD /* PracticeTestView2.swift */; };
+		7AA286712E25785000542C7D /* CreateView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA286702E25785000542C7D /* CreateView 2.swift */; };
+		7AA286732E25AFE900542C7D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA286722E25AFE900542C7D /* ImagePicker.swift */; };
+		7AA286752E28117F00542C7D /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA286742E28117F00542C7D /* OpenAIService.swift */; };
+		7AB4C5722D6C00860064F220 /* ChemistryOfLifeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4C5712D6C00860064F220 /* ChemistryOfLifeView2.swift */; };
+		7AD587D12E2AF3510017B186 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD587D02E2AF3510017B186 /* StoreKit.framework */; };
+		7AD587D32E2AF37F0017B186 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD587D22E2AF37F0017B186 /* PurchaseManager.swift */; };
+		7AFEE06C2D41AE2D00271531 /* LessonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFEE06B2D41AE2D00271531 /* LessonsView.swift */; };
+		7AFEE06E2D41AE3800271531 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFEE06D2D41AE3800271531 /* ProgressView.swift */; };
+		7AFEE0702D41AE4900271531 /* PracticeTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFEE06F2D41AE4900271531 /* PracticeTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A0CCB602D592D70002E96C4 /* NotesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesData.swift; sourceTree = "<group>"; };
+		7A0CCB622D592FB2002E96C4 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		7A0E8F262D73BCC100CABFC7 /* PhotosynthesisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosynthesisView.swift; sourceTree = "<group>"; };
+		7A0E8F282D73BFB600CABFC7 /* Unit9Flashcards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit9Flashcards.swift; sourceTree = "<group>"; };
+		7A0E8F2A2D73C8D200CABFC7 /* CellularRespirationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularRespirationView.swift; sourceTree = "<group>"; };
+		7A0E8F2C2D73C8DD00CABFC7 /* Unit10Flashcards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit10Flashcards.swift; sourceTree = "<group>"; };
+		7A3823ED2D42FE1400FB4927 /* Unit1Flashcards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit1Flashcards.swift; sourceTree = "<group>"; };
 		7A47B7242D40CFB400B04ECA /* BioTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A47B7272D40CFB400B04ECA /* BioTutorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioTutorApp.swift; sourceTree = "<group>"; };
 		7A47B7292D40CFB400B04ECA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A47B72B2D40CFB600B04ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A47B72E2D40CFB600B04ECA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A47B7352D40D35300B04ECA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7A529C2F2D833E3D00F70015 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		7A9C31D32D44D85200A075DF /* Unit1PracticeQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit1PracticeQuestions.swift; sourceTree = "<group>"; };
+		7A9EB8CB2D48116A002A92AD /* CellStructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellStructureView.swift; sourceTree = "<group>"; };
+		7A9EB8CD2D481188002A92AD /* Unit2Flashcards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit2Flashcards.swift; sourceTree = "<group>"; };
+		7A9EB8F52D48998F002A92AD /* CellCommsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCommsView.swift; sourceTree = "<group>"; };
+		7A9EB8F82D49421F002A92AD /* CellularEnergeticsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellularEnergeticsView.swift; sourceTree = "<group>"; };
+		7A9EB8FA2D49422B002A92AD /* EcologyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcologyView.swift; sourceTree = "<group>"; };
+		7A9EB8FC2D494237002A92AD /* GeneExpressionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneExpressionView.swift; sourceTree = "<group>"; };
+		7A9EB8FE2D494242002A92AD /* HeredityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeredityView.swift; sourceTree = "<group>"; };
+		7A9EB9002D49424D002A92AD /* NaturalSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaturalSelectionView.swift; sourceTree = "<group>"; };
+		7A9EB9082D494359002A92AD /* Unit3Flashcards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit3Flashcards.swift; sourceTree = "<group>"; };
+		7A9EB90A2D494362002A92AD /* Unit4Flashcards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit4Flashcards.swift; sourceTree = "<group>"; };
+		7A9EB90C2D49436B002A92AD /* Unit5Flashcards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit5Flashcards.swift; sourceTree = "<group>"; };
+		7A9EB90E2D494371002A92AD /* Unit6Flashcards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit6Flashcards.swift; sourceTree = "<group>"; };
+		7A9EB9102D49437F002A92AD /* Unit7Flashcards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit7Flashcards.swift; sourceTree = "<group>"; };
+		7A9EB9122D494387002A92AD /* Unit8Flashcards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit8Flashcards.swift; sourceTree = "<group>"; };
+		7A9EB91A2D495F4E002A92AD /* PracticeQuestionsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeQuestionsData.swift; sourceTree = "<group>"; };
+		7A9EB9202D49F1FF002A92AD /* PracticeTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTestData.swift; sourceTree = "<group>"; };
+		7A9EB9242D49F26F002A92AD /* PracticeTestView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTestView2.swift; sourceTree = "<group>"; };
+		7AA286702E25785000542C7D /* CreateView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateView 2.swift"; sourceTree = "<group>"; };
+		7AA286722E25AFE900542C7D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		7AA286742E28117F00542C7D /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		7AB4C5712D6C00860064F220 /* ChemistryOfLifeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemistryOfLifeView2.swift; sourceTree = "<group>"; };
+		7AD587D02E2AF3510017B186 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7AD587D22E2AF37F0017B186 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		7AFEE06B2D41AE2D00271531 /* LessonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsView.swift; sourceTree = "<group>"; };
+		7AFEE06D2D41AE3800271531 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		7AFEE06F2D41AE4900271531 /* PracticeTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,16 +98,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD587D12E2AF3510017B186 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A0E8F232D73BC5800CABFC7 /* Photosynthesis */ = {
+			isa = PBXGroup;
+			children = (
+				7A0E8F262D73BCC100CABFC7 /* PhotosynthesisView.swift */,
+				7A0E8F282D73BFB600CABFC7 /* Unit9Flashcards.swift */,
+				7A0E8F2A2D73C8D200CABFC7 /* CellularRespirationView.swift */,
+				7A0E8F2C2D73C8DD00CABFC7 /* Unit10Flashcards.swift */,
+			);
+			path = Photosynthesis;
+			sourceTree = "<group>";
+		};
+		7A4561EC2D42FAEB0073CDA5 /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EB91A2D495F4E002A92AD /* PracticeQuestionsData.swift */,
+				7A9EB9202D49F1FF002A92AD /* PracticeTestData.swift */,
+				7A0CCB602D592D70002E96C4 /* NotesData.swift */,
+				7A4561ED2D42FB3F0073CDA5 /* ChemistryOfLife */,
+				7A9EB8C32D480F7D002A92AD /* CellStructureAndFunction */,
+				7A9EB9022D49426D002A92AD /* CellularEnergetics */,
+				7A9EB8F72D4899B6002A92AD /* CellComms */,
+				7A9EB9062D4942A7002A92AD /* Heredity */,
+				7A9EB9042D49428F002A92AD /* GeneExpression */,
+				7A9EB9052D494299002A92AD /* NaturalSelection */,
+				7A9EB9072D4942B7002A92AD /* Ecology */,
+				7A0E8F232D73BC5800CABFC7 /* Photosynthesis */,
+			);
+			path = Units;
+			sourceTree = "<group>";
+		};
+		7A4561ED2D42FB3F0073CDA5 /* ChemistryOfLife */ = {
+			isa = PBXGroup;
+			children = (
+				7AB4C5712D6C00860064F220 /* ChemistryOfLifeView2.swift */,
+				7A3823ED2D42FE1400FB4927 /* Unit1Flashcards.swift */,
+				7A9C31D32D44D85200A075DF /* Unit1PracticeQuestions.swift */,
+			);
+			path = ChemistryOfLife;
+			sourceTree = "<group>";
+		};
 		7A47B71B2D40CFB400B04ECA = {
 			isa = PBXGroup;
 			children = (
+				7AFEE0732D41B2B100271531 /* Views */,
 				7A47B7262D40CFB400B04ECA /* BioTutor */,
+				7AD587CF2E2AF3510017B186 /* Frameworks */,
 				7A47B7252D40CFB400B04ECA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +169,7 @@
 				7A47B7272D40CFB400B04ECA /* BioTutorApp.swift */,
 				7A47B7292D40CFB400B04ECA /* ContentView.swift */,
 				7A47B72B2D40CFB600B04ECA /* Assets.xcassets */,
+				7A47B7352D40D35300B04ECA /* Launch Screen.storyboard */,
 				7A47B72D2D40CFB600B04ECA /* Preview Content */,
 			);
 			path = BioTutor;
@@ -65,6 +181,95 @@
 				7A47B72E2D40CFB600B04ECA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A9EB8C32D480F7D002A92AD /* CellStructureAndFunction */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EB8CB2D48116A002A92AD /* CellStructureView.swift */,
+				7A9EB8CD2D481188002A92AD /* Unit2Flashcards.swift */,
+			);
+			path = CellStructureAndFunction;
+			sourceTree = "<group>";
+		};
+		7A9EB8F72D4899B6002A92AD /* CellComms */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EB8F52D48998F002A92AD /* CellCommsView.swift */,
+				7A9EB90A2D494362002A92AD /* Unit4Flashcards.swift */,
+			);
+			path = CellComms;
+			sourceTree = "<group>";
+		};
+		7A9EB9022D49426D002A92AD /* CellularEnergetics */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EB8F82D49421F002A92AD /* CellularEnergeticsView.swift */,
+				7A9EB9082D494359002A92AD /* Unit3Flashcards.swift */,
+			);
+			path = CellularEnergetics;
+			sourceTree = "<group>";
+		};
+		7A9EB9042D49428F002A92AD /* GeneExpression */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EB8FC2D494237002A92AD /* GeneExpressionView.swift */,
+				7A9EB90E2D494371002A92AD /* Unit6Flashcards.swift */,
+			);
+			path = GeneExpression;
+			sourceTree = "<group>";
+		};
+		7A9EB9052D494299002A92AD /* NaturalSelection */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EB9002D49424D002A92AD /* NaturalSelectionView.swift */,
+				7A9EB9102D49437F002A92AD /* Unit7Flashcards.swift */,
+			);
+			path = NaturalSelection;
+			sourceTree = "<group>";
+		};
+		7A9EB9062D4942A7002A92AD /* Heredity */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EB8FE2D494242002A92AD /* HeredityView.swift */,
+				7A9EB90C2D49436B002A92AD /* Unit5Flashcards.swift */,
+			);
+			path = Heredity;
+			sourceTree = "<group>";
+		};
+		7A9EB9072D4942B7002A92AD /* Ecology */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EB8FA2D49422B002A92AD /* EcologyView.swift */,
+				7A9EB9122D494387002A92AD /* Unit8Flashcards.swift */,
+			);
+			path = Ecology;
+			sourceTree = "<group>";
+		};
+		7AD587CF2E2AF3510017B186 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AD587D02E2AF3510017B186 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AFEE0732D41B2B100271531 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AFEE06B2D41AE2D00271531 /* LessonsView.swift */,
+				7AFEE06F2D41AE4900271531 /* PracticeTestView.swift */,
+				7A9EB9242D49F26F002A92AD /* PracticeTestView2.swift */,
+				7A529C2F2D833E3D00F70015 /* CreateView.swift */,
+				7AA286702E25785000542C7D /* CreateView 2.swift */,
+				7A0CCB622D592FB2002E96C4 /* NotesView.swift */,
+				7AFEE06D2D41AE3800271531 /* ProgressView.swift */,
+				7AA286722E25AFE900542C7D /* ImagePicker.swift */,
+				7AA286742E28117F00542C7D /* OpenAIService.swift */,
+				7AD587D22E2AF37F0017B186 /* PurchaseManager.swift */,
+				7A4561EC2D42FAEB0073CDA5 /* Units */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +300,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					7A47B7232D40CFB400B04ECA = {
 						CreatedOnToolsVersion = 15.3;
@@ -125,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A47B7362D40D35300B04ECA /* Launch Screen.storyboard in Resources */,
 				7A47B72F2D40CFB600B04ECA /* Preview Assets.xcassets in Resources */,
 				7A47B72C2D40CFB600B04ECA /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +344,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A47B72A2D40CFB400B04ECA /* ContentView.swift in Sources */,
+				7AFEE06E2D41AE3800271531 /* ProgressView.swift in Sources */,
+				7A9EB8CE2D481188002A92AD /* Unit2Flashcards.swift in Sources */,
+				7AA286732E25AFE900542C7D /* ImagePicker.swift in Sources */,
+				7A9EB9132D494387002A92AD /* Unit8Flashcards.swift in Sources */,
+				7A9EB8CC2D48116A002A92AD /* CellStructureView.swift in Sources */,
+				7A9C31D42D44D85200A075DF /* Unit1PracticeQuestions.swift in Sources */,
+				7AA286752E28117F00542C7D /* OpenAIService.swift in Sources */,
+				7A9EB91B2D495F4E002A92AD /* PracticeQuestionsData.swift in Sources */,
+				7A9EB9252D49F26F002A92AD /* PracticeTestView2.swift in Sources */,
+				7AD587D32E2AF37F0017B186 /* PurchaseManager.swift in Sources */,
+				7A0CCB612D592D70002E96C4 /* NotesData.swift in Sources */,
+				7A9EB9212D49F1FF002A92AD /* PracticeTestData.swift in Sources */,
+				7A0E8F272D73BCC100CABFC7 /* PhotosynthesisView.swift in Sources */,
+				7A0E8F2D2D73C8DD00CABFC7 /* Unit10Flashcards.swift in Sources */,
+				7A9EB8FB2D49422B002A92AD /* EcologyView.swift in Sources */,
+				7AB4C5722D6C00860064F220 /* ChemistryOfLifeView2.swift in Sources */,
+				7AFEE06C2D41AE2D00271531 /* LessonsView.swift in Sources */,
+				7A9EB90D2D49436B002A92AD /* Unit5Flashcards.swift in Sources */,
+				7A0CCB632D592FB2002E96C4 /* NotesView.swift in Sources */,
+				7A9EB9092D494359002A92AD /* Unit3Flashcards.swift in Sources */,
+				7A9EB9112D49437F002A92AD /* Unit7Flashcards.swift in Sources */,
+				7A3823EE2D42FE1400FB4927 /* Unit1Flashcards.swift in Sources */,
 				7A47B7282D40CFB400B04ECA /* BioTutorApp.swift in Sources */,
+				7A9EB90B2D494362002A92AD /* Unit4Flashcards.swift in Sources */,
+				7A0E8F292D73BFB600CABFC7 /* Unit9Flashcards.swift in Sources */,
+				7A9EB8F62D48998F002A92AD /* CellCommsView.swift in Sources */,
+				7AFEE0702D41AE4900271531 /* PracticeTestView.swift in Sources */,
+				7A9EB8FD2D494237002A92AD /* GeneExpressionView.swift in Sources */,
+				7A529C302D833E3D00F70015 /* CreateView.swift in Sources */,
+				7AA286712E25785000542C7D /* CreateView 2.swift in Sources */,
+				7A0E8F2B2D73C8D200CABFC7 /* CellularRespirationView.swift in Sources */,
+				7A9EB8FF2D494242002A92AD /* HeredityView.swift in Sources */,
+				7A9EB90F2D494371002A92AD /* Unit6Flashcards.swift in Sources */,
+				7A9EB8F92D49421F002A92AD /* CellularEnergeticsView.swift in Sources */,
+				7A9EB9012D49424D002A92AD /* NaturalSelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +420,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 82SLZ2CZFN;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -243,6 +484,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 82SLZ2CZFN;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -270,23 +512,29 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"BioTutor/Preview Content\"";
-				DEVELOPMENT_TEAM = HCLRSDFKG9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BioLearn AI";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = kavehnaini.BioTutor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,23 +547,29 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"BioTutor/Preview Content\"";
-				DEVELOPMENT_TEAM = HCLRSDFKG9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BioLearn AI";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = kavehnaini.BioTutor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
